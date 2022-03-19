@@ -29,6 +29,6 @@ jobs:
       env:
           DNSPOD_TOKEN: ${{ secrets.DNSPOD_TOKEN }}
       run: |
-        python3 ./main/py
+        python3 main/py
      
       
