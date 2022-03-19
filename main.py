@@ -29,7 +29,7 @@ DomainListUrl = 'https://dnsapi.cn/Domain.List'
 RecordListUrl = 'https://dnsapi.cn/Record.List'
 RecordDdnsUrl = 'https://dnsapi.cn/Record.Ddns'
 loginInfo = {
-'login_token':'300051,5e897d877cd46f7b5a03da042bb925b0',
+'login_token':DNSPOD_TOKEN,
 'format': 'json'
 }
 res = initReq(url=DomainListUrl, values=loginInfo)
