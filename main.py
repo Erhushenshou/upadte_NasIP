@@ -23,7 +23,7 @@ def initReq(url, values):
 
 
 
-DNSPOD_TOKEN = ‘’
+DNSPOD_TOKEN = ''
 if os.environ.get('DNSPOD_TOKEN', '') != '':
        DNSPOD_TOKEN = os.environ['DNSPOD_TOKEN']
 
