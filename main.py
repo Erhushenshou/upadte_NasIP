@@ -23,6 +23,10 @@ def initReq(url, values):
 
 
 
+DNSPOD_TOKEN = ‘’
+if os.environ.get('DNSPOD_TOKEN', '') != '':
+       DNSPOD_TOKEN = os.environ['DNSPOD_TOKEN']
+
 
 update_domain = "tonio-peng.top"
 DomainListUrl = 'https://dnsapi.cn/Domain.List'
