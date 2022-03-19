@@ -50,7 +50,7 @@ subdomainInfo = {((i['name'], i['line']) if i['type'] == 'A' else ('invalid', 'i
 
 
 
-updated_ip = getMyIp()
+updated_ip = 219.137.65.160
 http_data =[{
                 **loginInfo,
                 **{
